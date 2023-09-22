@@ -1,0 +1,59 @@
+/* Reset some default styles to ensure consistent rendering */
+body, h1, h2, ul, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4efef;
+    color: #333;
+    
+}
+
+/* Style the header with center-aligned text */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the image and name */
+img {
+    max-width: 150px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the section headings */
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Style the lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Add some spacing between sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style the declaration section */
+.declaration {
+    margin-top: 30px;
+    font-style: italic;
+    color:#706f6f;
+}
